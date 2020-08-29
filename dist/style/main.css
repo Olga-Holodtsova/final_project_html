@@ -8,7 +8,7 @@
   
   body {
     padding: 20px;
-    background-color: #FFFFFF;
+    background-color: #ECECEC;
   }
   
   .wrapper {
@@ -24,12 +24,23 @@
   }
   
   /*------------------sidebar_left*/
-  .sidebar_left {
-    
-  }
+ 
+
+.sidebar_left {
+  display: inline-block;
+  width: 74px;  
+  height: 1000px;
+  background-color: #FC6665;
+}
   
   /*------------------header*/
-  
+.header {
+  display: inline-block;
+  left: 74px;
+  width: 1298px;  
+  height: 71px;
+  background-color: #EAE359;
+  } 
   
   /*------------------static_tab*/
   
